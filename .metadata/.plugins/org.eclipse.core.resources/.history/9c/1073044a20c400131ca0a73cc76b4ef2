@@ -1,0 +1,16 @@
+package com.adamcharlton.tabsplitter;
+
+import java.io.Console;
+
+public class Splitter {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hey how's it going?");
+	}
+
+	public void calculate()
+	{
+		
+	}
+}

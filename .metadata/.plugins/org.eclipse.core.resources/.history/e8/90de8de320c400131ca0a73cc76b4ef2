@@ -1,0 +1,20 @@
+package com.adamcharlton.tabsplitter;
+
+import java.util.Scanner;
+
+public class Splitter {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hey how's it going?");
+		Scanner user_input = new Scanner(System.in);
+		int x = user_input.nextInt();
+		calculate(x);
+		user_input.close();
+	}
+
+	public static int calculate(int x)
+	{
+		return x;
+	}
+}

@@ -1,12 +1,17 @@
-Tab Splitter
-============
+Tab Splitter jQuery Protoype
+============================
 
-***The purpose of this app is to be able to have an easy way of splitting a tab for any situation. This includes restaurant bills, bar tabs, and even just plain old paying internet in an apartment with a roomate.***
+Purpose
+-------
 
-##_People who may use this app include:_
-students
-| coworkers
-| young adults with little money
-| etc. 
+The purpose of this app is to allow for precise and specific splitting of a purchase among multiple people. If
+someone is unable to pay for their part, the user can store what the person owes on a different page with
+information as to what the purchase was, how much, when, etc. There is also a settings page that will add tax,
+split the bill evenly or unevenly, and more various options.
 
-Spring 2014
+Target Audience
+---------------
+
+The target audience for this app would mainly be college students or other young adults who go out frequently with
+a group of friends who split the tab. This could also be targeted for business associates who go out to eat with each
+other, a group of family friends, and maybe even for parents to use just to keep count of how much their kids owe them!

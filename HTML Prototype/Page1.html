@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body   {
+			background: url(images/Page1BG.png);
+			background-repeat:no-repeat;
+		}
+header
+{
+			position:relative;
+			left: 170px;
+			margin-top: 30px;
+			font-size:40px;
+}
+form
+{
+	position:relative;
+	right: 300px;
+	margin-top: -30px
+}
+input
+{
+	position:relative;
+	margin:top: 30px;
+}
+a
+{
+	position:relative;
+	right: 108px;
+	text-decoration : none; color: #242621;
+}
+table
+{
+	position: relative;
+	right: 268px;
+	font-size:20px;
+	margin-top: 30px;
+	background-color: #FFFFFF;
+	border-collapse:separate; 
+	border-spacing: 23px;
+}
+.calc
+{
+background: url(images/Calculate.png) 3px 5px no-repeat;
+  width:100px; 
+  height:100px; 
+  background-size: 100%; /* To fill the dimensions of container (button), or */
+  background-size: 40px auto; /* to specify dimensions explicitly */
+}
+.owes
+{
+background: url(images/Owes.png) 3px 5px no-repeat;
+  width:100px; 
+  height:100px; 
+  background-size: 100%; /* To fill the dimensions of container (button), or */
+  background-size: 40px auto; /* to specify dimensions explicitly */
+}
+.options
+{
+background: url(images/Options.png) 3px 5px no-repeat;
+  width:100px; 
+  height:100px; 
+  background-size: 100%; /* To fill the dimensions of container (button), or */
+  background-size: 40px auto; /* to specify dimensions explicitly */
+}
+.Bar
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+</style>
+</head>
+
+<body>
+
+<div data-role="page" id="pageone">
+  <header id="h">
+    <h1>Calculate</h1>
+  <header>
+
+  <div data-role="main" class="ui-content">
+<form>
+Total Tab: <input type="text" name="Cash"><br>
+</form>
+    <a href="#" class="ui-btn">Split Tab</a>
+  </div>
+
+
+  <div data-role="main" class="ui-content">
+    <table data-role="table" data-mode="columntoggle" class="ui-responsive ui-shadow" id="myTable">
+      <thead>
+        <tr>
+          <th data-priority="6"></th>
+          <th>Ower</th>
+          <th data-priority="1">Date of Tab</th>
+          <th data-priority="3">Amount Owes</th>
+          <th data-priority="7"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Alfred Fut</td>
+          <td>March 2, 2012</td>
+          <td>$1,000</td>
+		  <!--
+          <td><a href="#" class="ui-btn ui-icon-arrow-r ui-btn-icon-left">Send to Loans</a>
+          </td>
+		  -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div data-role="footer" data-theme="b" class="footer Bar">
+    <div data-role="navbar">
+      <ul>
+        <li><a class="button calc" href="Page1.html" data-icon="images/Calculate.png">__</a></li>
+        <li><a class="button owes" href="Page2.html" data-icon="images/Owes.png">__</a></li>
+        <li><a class="button options" href="Page3.html" data-icon="images/Options.png">__</a></li>
+      </ul>
+    </div>
+  </div>
+</div> 
+
+</body>
+</html>

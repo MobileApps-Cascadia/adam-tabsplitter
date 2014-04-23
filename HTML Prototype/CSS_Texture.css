@@ -1,0 +1,11 @@
+/* first page background */
+#PageOne
+{
+	background:url(images/Page1BG.png);
+	background-repeat:no-repeat;
+	width:640px;
+	height:960px;
+	text-indent:-999px;
+	font-size:0px;
+	margin:5px auto 0 auto;	
+}
